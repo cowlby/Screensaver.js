@@ -25,7 +25,7 @@ Screensaver Method: constructor {#Screensaver:constructor}
 
 * events - (*array*: defaults to ['click', 'keypress', 'mousemove', 'resize', 'scroll']) The events to listen for which indicate a user is active.
 * target - (*element*: defaults to window) The element to monitor for user activity.
-* ttl    - (*integer*: defaults to 15000ms) The time which the user must spend idle before the idle event is fired.
+* ttl    - (*integer*: defaults to 10000ms) The time which the user must spend idle before the idle event is fired.
 
 ### Events:
 
